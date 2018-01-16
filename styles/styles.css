@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'futura';
-	src: url('fonts/Futura-Book.ttf');
+	src: url('../fonts/Futura-Book.ttf');
 }
 
 body {
@@ -86,7 +86,7 @@ padding-top: 20px;
 
 #frontPic img{
 	position: fixed;
-	width: 35%;
+	width: 33%;
 	height: auto;
 	/*position: fixed;*/
 	margin-left: 38%;
