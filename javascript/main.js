@@ -6,6 +6,7 @@
 	var hovPhoto = false;
 	var hovVideo = false;
 	var hovZines = false;
+	var stateMenu = false;
 
 // dropdown menu on click
 
@@ -90,6 +91,8 @@
 		
 	});
 
+
+
 // photo hover button
 
 	$(".buttonPhoto").hover(function(){
@@ -103,7 +106,7 @@
 		$(".buttonPhoto").css("color", "white");
 	}
 
-	})
+	});
 
 // video hover button
 
@@ -118,7 +121,7 @@
 		$(".buttonVideo").css("color", "white");
 	}
 
-	})
+	});
 
 // zines hover button
 	
@@ -136,7 +139,22 @@
 	})
 
 
+// mobile menu click
 
 
+	$(".menu-icon").click( function(){
+
+		stateMenu = !stateMenu
+		console.log("stateMenu");
+
+	if (stateMenu ==true) {
+		console.log("showMenu");
+		$(".menu").css("display", "block")
+	} else {
+		console.log("hideMenu")
+		$(".menu").css("display", "none")
+	}
+	
+	});
 
 
