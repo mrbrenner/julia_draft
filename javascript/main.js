@@ -188,7 +188,7 @@ function hasScrolled() {
 
     } else {
       $('header').removeClass('nav-up').addClass('nav-down');
-      $('#frontPic img').css( 'margin-top', '20%');
+      $('#frontPic img').css( 'margin-top', '22%');
     }
  	
     scrollTop = scrollTop
