@@ -158,3 +158,38 @@
 	});
 
 
+// mobile header dissapear
+
+// Hide Header on on scroll down
+
+var didScroll;
+var ScrollTop = 0;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 25);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > ScrollTop){
+       $('header').removeClass('nav-down').addClass('nav-up');
+       $('#frontPic img').css( 'margin-top', '5%');
+
+    } else {
+      $('header').removeClass('nav-up').addClass('nav-down');
+      $('#frontPic img').css( 'margin-top', '20%');
+    }
+ 	
+    scrollTop = scrollTop
+}
