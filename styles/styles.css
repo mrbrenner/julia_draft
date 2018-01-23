@@ -117,16 +117,23 @@ body {
 			display:none;
 		}
 
+
 		#frontPic img{
 			position: static;
 			width: 95%;
 			height: auto;
 			/*position: fixed;*/
 			margin-left: .5%;
-			margin-top: 22%;
+			margin-top: 23%;
 			z-index: -1;
 		/*	border: 2px solid white*/;
 		/*display:none;*/
+		}
+		.pictures img{
+			width: 95%;
+			height:auto;
+			margin-left: .5%;
+			margin-top: %;
 		}
 
 /*header*/
