@@ -9,6 +9,12 @@ body {
 	font-family: futura;
 }
 
+/*mobile menu*/
+
+#mobileMenu {
+		display:none;
+	}
+
 /*banner*/
 #bannerFlex{
 	padding-top: 20px;
@@ -147,9 +153,6 @@ img {
 
 /*whole page flex*/
 
-#pageFlex {
-	display: flex;
-}
 #contact {
 
 }

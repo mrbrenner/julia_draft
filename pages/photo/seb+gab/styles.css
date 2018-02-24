@@ -9,6 +9,13 @@ body {
 	font-family: futura;
 }
 
+/*mobile menu*/
+
+#mobileMenu {
+		display:none;
+	}
+
+
 /*banner*/
 #bannerFlex{
 	padding-top: 20px;
@@ -153,4 +160,101 @@ img {
 
 #pageFlex {
 	display: flex;
+}
+
+@media (max-width:400px) {
+
+
+
+
+/*front page content*/
+
+
+		#mobileMenu {
+			display: block;
+		}
+
+		#banner {
+			display:none;
+		}
+
+		#files {
+			display: block;
+			margin-left: 0;
+			width: 100%;
+			
+		}
+
+		#files img {
+			width: 100%;
+
+		}
+
+		.col1, .col2 {
+			width: 100%;
+		}
+		
+
+/*header*/
+
+/*
+.nav-up {
+	visibility: hidden;
+	margin-top: 0;
+	padding-top: 0;
+	position: fixed;
+}*/
+
+
+
+.nav-down{
+			
+			display: block;
+			visibility: visible;
+			position:static;
+			background-color: #000000;
+			border-bottom: 10px solid #000000;
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+#mobileMenu button {
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #000000;
+	border: none;
+	outline: 0;
+}
+
+		#logo {
+			position: absolute;
+			margin-top: -5px;
+		}
+
+		.menu {
+			margin-left:60%;
+			margin-top: 18%;
+			display:none;
+			background-color: #000000;
+			border-bottom: 4px solid black;
+			z-index: 100;
+			position: absolute;
+		}
+
+		.menu-icon button {
+			background-color: #000000;
+			}
+
+		.menu-icon img {
+			width: 12%;
+			height: auto;
+			position: static;
+			margin-left: 300px;
+			margin-top: 12px;
+			padding-top: 0px;
+		}
+
+		.menu-icon img:hover{
+			cursor: pointer;
+		}
 }

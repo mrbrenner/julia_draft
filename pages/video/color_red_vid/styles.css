@@ -9,6 +9,10 @@ body {
 	font-family: futura;
 }
 
+#mobileMenu {
+		display:none;
+	}
+
 /*banner*/
 #bannerFlex{
 	padding-top: 20px;
@@ -103,4 +107,78 @@ h1 {
 	position: fixed;
 	margin-left: 300px;
 	margin-top: -275px;
+}
+
+
+/*MOBILE*/
+
+@media (max-width:400px) {
+
+#mobileMenu {
+			display: block;
+		}
+
+		#banner {
+			display:none;
+		}
+
+.nav-down{
+			
+			display: block;
+			visibility: visible;
+			position:static;
+			background-color: #000000;
+			border-bottom: 10px solid #000000;
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+#mobileMenu button {
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #000000;
+	border: none;
+	outline: 0;
+}
+
+		#logo {
+			position: absolute;
+			margin-top: -5px;
+		}
+
+		.menu {
+			margin-left:60%;
+			margin-top: 18%;
+			display:none;
+			background-color: #000000;
+			border-bottom: 4px solid black;
+			z-index: 100;
+			position: absolute;
+		}
+
+		.menu-icon button {
+			background-color: #000000;
+			}
+
+		.menu-icon img {
+			width: 12%;
+			height: auto;
+			position: static;
+			margin-left: 300px;
+			margin-top: 12px;
+			padding-top: 0px;
+		}
+
+		.menu-icon img:hover{
+			cursor: pointer;
+		}
+
+	video {
+		position: static;
+		margin-left: -.5%;
+		margin-top: 40%;
+		z-index: -1;
+		width: 360px;
+		height: auto;
+	}
 }
