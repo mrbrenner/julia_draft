@@ -117,7 +117,7 @@ ul .items:hover {
 }
 
 #files {
-	margin-top: 110px;
+	padding-top: 110px;
 	margin-right: 0px;
 	padding-right:0px;
 	margin-left: 0px;
@@ -182,13 +182,13 @@ ul .items:hover {
 			padding-top: 0;
 		}
 
-#mobileMenu button {
-	margin-top: 0;
-	padding-top: 0;
-	background-color: #000000;
-	border: none;
-	outline: 0;
-}
+		#mobileMenu button {
+			margin-top: 0;
+			padding-top: 0;
+			background-color: #000000;
+			border: none;
+			outline: 0;
+		}
 
 		#logo {
 			position: absolute;
@@ -198,7 +198,7 @@ ul .items:hover {
 		.menu {
 			margin-left:60%;
 			margin-top: 18%;
-			display:none;
+			display: none;
 			background-color: #000000;
 			border-bottom: 4px solid black;
 			z-index: 100;
@@ -221,10 +221,11 @@ ul .items:hover {
 		.menu-icon img:hover{
 			cursor: pointer;
 		}
-}
 
-#files {
-	margin-top: 15%;
-	margin-left: 5%;
-	align-items: flex-start;
+		#files {
+			margin-top: 15%;
+			padding-top: 0;
+			margin-left: 5%;
+			align-items: flex-start;
+		}
 }
