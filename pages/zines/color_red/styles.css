@@ -9,6 +9,10 @@ body {
 	font-family: futura;
 }
 
+
+#mobileMenu {
+		display:none;
+	}
 /*banner*/
 #bannerFlex{
 padding-top: 20px;
@@ -100,4 +104,106 @@ padding-top: 20px;
 	margin-top: 1%;
 	z-index: -1;
 /*	border: 2px solid white*/;
+}
+
+@media (max-width:400px) {
+
+
+
+
+/*front page content*/
+
+
+		#mobileMenu {
+			display: block;
+		}
+
+		#banner {
+			display:none;
+		}
+
+
+		#frontPic img{
+			position: static;
+			width: 99%;
+			height: auto;
+			margin-left: 2px;
+			padding-top: 5%;
+			z-index: -1;
+		}
+		.pictures img{
+			width: 95%;
+			height:auto;
+			margin-left: .5%;
+			margin-top: %;
+		}
+		#frontCaption {
+			margin-top:15px;
+			padding-top: 0;
+			text-align: center;
+			/*margin-left: 10px;*/
+		}
+
+/*header*/
+
+
+/*.nav-up {
+	visibility: hidden;
+	margin-top: 0;
+	padding-top: 0;
+	position: fixed;
+}*/
+
+
+
+.nav-down{
+			
+			display: block;
+			visibility: visible;
+			position:static;
+			background-color: #000000;
+			border-bottom: 10px solid #000000;
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+#mobileMenu button {
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #000000;
+	border: none;
+	outline: 0;
+}
+
+		#logo {
+			position: absolute;
+			margin-top: -5px;
+		}
+
+		.menu {
+			margin-left:60%;
+			margin-top: 18%;
+			display:none;
+			background-color: #000000;
+			border-bottom: 4px solid black;
+			z-index: 100;
+			position: absolute;
+		}
+
+		.menu-icon button {
+			background-color: #000000;
+			}
+
+		.menu-icon img {
+			width: 12%;
+			height: auto;
+			position: static;
+			margin-left: 300px;
+			margin-top: 12px;
+			padding-top: 0px;
+		}
+
+		.menu-icon img:hover{
+			cursor: pointer;
+		}
 }
