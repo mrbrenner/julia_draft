@@ -455,7 +455,7 @@ img {
 			display:none;
 			background-color: #000000;
 			border-bottom: 4px solid black;
-			border-right: 12px solid black;
+			border-right: 15px solid black;
 			z-index: 100;
 			position: absolute;
 		}
@@ -468,7 +468,7 @@ img {
 			width: 12%;
 			height: auto;
 			position: static;
-			margin-left: 96%;
+			margin-left: 550px;
 			margin-top: 0px;
 			padding-top: 0px;
 		}
@@ -541,7 +541,7 @@ img {
 			display:none;
 			background-color: #000000;
 			border-bottom: 4px solid black;
-			border-right: 12px solid black;
+			border-right: 15px solid black;
 			z-index: 100;
 			position: absolute;
 		}
@@ -554,7 +554,7 @@ img {
 			width: 12%;
 			height: auto;
 			position: static;
-			margin-left: 600px;
+			margin-left: 550px;
 			margin-top: 0px;
 			padding-top: 0px;
 		}
