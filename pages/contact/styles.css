@@ -1,4 +1,4 @@
-  #Mz@font-face {
+  @font-face {
 	font-family: 'futura';
 	src: url('../../fonts/Futura-Book.ttf');
 }
@@ -321,6 +321,12 @@ body {
 		}
 
 	/*content*/
+
+
+	body {
+		margin-right: 0
+		padding-right:0;
+	}
 
 	#files h1 {
 		font-size: 2em;
